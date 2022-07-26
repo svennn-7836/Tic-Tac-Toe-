@@ -17,7 +17,7 @@ namespace WindowsFormsApplication1
         bool playerturn = true;
         int playerturn_count = 0;
 
-        
+
         public Form2()
         {
             InitializeComponent();
@@ -44,10 +44,32 @@ namespace WindowsFormsApplication1
                 x.Text = "O";
 
             playerturn = !playerturn;
-            x.Enabled = false; 
+            x.Enabled = false;
+            
+        
+       
+        
+            
 
+            
 
+   
+
+            
+
+            
+            
         }
+        
+
+
+
+
+
+
+
+
+
 
         private void button9_Click(object sender, EventArgs e)
         {
@@ -56,6 +78,12 @@ namespace WindowsFormsApplication1
             Form1 FORM2 = new Form1();
             FORM2.Show();
             this.Hide();
-        }
+
+            
+    }
+        
+
+
+    
     }
 }
